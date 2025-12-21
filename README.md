@@ -1,4 +1,72 @@
-🚀 Project OverviewThis is a high-performance, interactive, and visually rich developer portfolio built as a single, self-contained HTML file. It's meticulously designed to showcase advanced skills in modern front-end development, specifically focusing on creative WebGL, dynamic animations, and complex UI implementation within a single document.The project relies exclusively on external dependencies loaded via CDNs (Content Delivery Networks), making it exceptionally easy to deploy or run locally—simply open the file in any modern web browser.
-✨ Key FeaturesImmersive 3D/WebGL Scene: Features a dynamic "Hyperspeed" visual effect in the background. This effect is built with Three.js and sophisticated Postprocessing techniques, creating a visually arresting and high-performance atmosphere.Interactive Scroll Gallery: Incorporates a unique horizontally scrolling projects gallery. This feature utilizes GSAP's ScrollTrigger plugin to implement smooth, pinned scrolling that synchronizes the scroll timeline with abstract 3D elements for a cohesive experience.Modern Design System: The entire portfolio is styled with Tailwind CSS, utilizing a clean dark theme, custom gradients, and smooth scroll behavior for a premium user experience.Core Sections: Contains well-defined sections for the Hero, About Me, Projects, Gallery, Showcase, and Contact.
-💻 Technology StackThis project is entirely contained within index.html and uses the following technologies loaded directly from CDNs:CategoryTechnologyPurposeFrameworkReact (via CDN)UI Component Model for modular designTranspilerBabel (via CDN)On-the-fly compilation of JSX into browser-compatible JavaScriptStylingTailwind CSS (via CDN)Utility-first CSS framework for rapid, consistent styling3D GraphicsThree.jsWebGL library for the Hyperspeed and primary 3D scenesPost-ProcessingPostprocessingAdds visual enhancements like Bloom and SMAA to the 3D graphicsAnimationGSAP & ScrollTriggerHigh-performance library for complex timeline and scrolling animations
-🛠️ Installation and SetupSince all dependencies are loaded via CDN, installation is effortless:Clone the repository (if applicable) or download the index.html file.Open index.html directly in your web browser (e.g., Chrome, Firefox, Edge).No local build process or node modules are required to run the core visual and animation features of the portfolio.🔗 Author Links and ContactThe portfolio includes interactive links for connecting across various platforms:EmailLinkedInGitHubYouTube
+# 🚀 Advanced Developer Portfolio
+
+[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
+[![Three.js](https://img.shields.io/badge/Three.js-black?style=for-the-badge&logo=three.js&logoColor=white)](https://threejs.org/)
+[![GSAP](https://img.shields.io/badge/GSAP-88CE02?style=for-the-badge&logo=greensock&logoColor=white)](https://greensock.com/gsap/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+
+A high-performance, interactive, and visually stunning developer portfolio. This project showcases advanced front-end capabilities, including custom WebGL shaders, complex 3D scenes, and professional-grade animations—all while maintaining a clean, refactored architecture.
+
+---
+
+## ✨ Key Features
+
+- **🌀 Immersive 3D Experience**: A dynamic "Hyperspeed" background built with Three.js and custom GLSL shaders.
+- **🖼️ Interactive Gallery**: A horizontally scrolling showcase powered by GSAP ScrollTrigger, seamlessly integrated with a 3D persistent scene.
+- **⚡ Performance Optimized**: Minimalistic architecture loading only necessary assets via high-speed CDNs.
+- **📱 Fluid Responsiveness**: Fully responsive design using Tailwind CSS, ensuring a premium experience on any device.
+- **🛠️ Refactored Architecture**: Clean separation of concerns with dedicated HTML, CSS, and JS modules.
+
+---
+
+## 💻 Technical Stack
+
+| Category | Technology | Usage |
+| :--- | :--- | :--- |
+| **Core** | React | Component-based UI Architecture |
+| **Styling** | Tailwind CSS | Utility-first Design System |
+| **3D Engine** | Three.js | WebGL Graphics & Shader Implementation |
+| **Animations** | GSAP | High-performance Timeline & Scroll Orchestration |
+| **Post-Processing** | Postprocessing.js | Visual Enhancements (Bloom, SMAA) |
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+To run this project locally, you just need a browser. However, due to browser security (CORS), it's recommended to run it through a local server.
+
+### Running Locally
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/notgamermx/not_portfolio.git
+   ```
+2. **Launch a local server:**
+   - **Using Python:** `python -m http.server 8000`
+   - **Using npx:** `npx serve .`
+3. **Open:** `http://localhost:8000`
+
+---
+
+## 📂 Project Structure
+
+```text
+not_portfolio/
+├── index.html   # Main entry point & library links
+├── style.css    # Global styles & keyframe animations
+└── script.js    # Core application logic & React components
+```
+
+---
+
+## 👤 Author
+
+**Deekshith (NotGamerMx)**
+- 💼 [LinkedIn](https://www.linkedin.com/in/deekshith-1200b2384/)
+- 🎥 [YouTube](https://www.youtube.com/@NotGamerMx)
+- 💻 [GitHub](https://github.com/notgamermx)
+
+---
+
+> [!TIP]
+> This portfolio is built to be a living document. I'm constantly adding new experiments and features!
